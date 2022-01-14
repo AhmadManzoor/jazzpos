@@ -1,6 +1,11 @@
 # Intro
 Simple Point of Sale (POS) system based on Django. Not for production yet !
 
+#Changelog from orignal Repo
+deployed using Python 2.7.16
+updated depreciated/non-existing dependencies
+added requirements.txt
+
 # Quickstart
 On your terminal, run the following:-
 

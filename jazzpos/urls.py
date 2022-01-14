@@ -39,11 +39,11 @@ urlpatterns += patterns('',
     url(r'^users/', include('smartmin.users.urls')),
 )
 
-from autocomplete.views import autocomplete
-autocomplete.autodiscover()
-urlpatterns += patterns('',
-    url('^autocomplete/', include(autocomplete.urls)),
-)
+#from autocomplete.views import autocomplete
+#autocomplete.autodiscover()
+#urlpatterns += patterns('',
+#    url('^autocomplete/', include(autocomplete.urls)),
+#)
 
 if settings.DEBUG:
     urlpatterns += patterns('',
